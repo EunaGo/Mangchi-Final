@@ -1,0 +1,495 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+table, tr, td{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.memberList {
+	width: 20%;
+	display: block;
+	margin: 0;
+}
+
+.mypageBox{
+	margin-left: 30%;
+}
+
+div.card {
+	width: 25%;
+	border: 1px solid #DDD;
+	display: unset;
+}
+
+div.card>ul>li {
+	list-style: none;
+	font-size: 12px;
+}
+
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+}
+
+table {
+	margin-left: 8%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+input {
+	margin-left: 3%;
+	border: none;
+	width: 65%;
+	font-size: 1.5em;
+	background: none;
+}
+
+#mNick{
+	border-bottom: 2px solid #162D59;
+}
+
+#mAddr{
+	border-bottom: 2px solid #162D59;
+}
+
+/* Modal:: 비밀번호 변경 */ 
+#mPw{
+	border: 1px solid #162D59;
+}
+#nPw{
+	border: 1px solid #162D59;
+}
+#nchkPw{
+	border: 1px solid #162D59;
+}
+
+#dPw{
+	border: 1px solid #162D59;
+}
+
+#sendCode{
+	border: 1px solid #162D59;
+}
+
+select{
+	padding: 9px 0;
+    width: 68%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#button{
+	background-color: #f5b67f;
+	color: white;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 18%;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+#button:hover {
+	background-color: #f7c89f;
+}
+
+#editSubmit {
+	background-color: #edc67e;
+	color: white;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 18%;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+#editSubmit:hover {
+	background-color: #faeeda;
+}
+
+#code{
+	background-color: #f5b67f;
+	color: white;
+	width: 40%;
+	margin-top: 1%;
+	margin-left: 35%;
+	margin-bottom: 8%;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+#code:hover {
+	background-color: #f7c89f;
+}
+
+.modalButton{
+	background-color: #edc67e;
+	color: white;
+	width: 30%;
+	margin-top: 0;
+	margin-left: 0;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.modalButton:hover{
+	background-color: #f4deb4;
+}
+
+.backButton{
+	background-color: #aaaaaa;
+	color: white;
+	width: 30%;
+	margin-top: 0;
+	margin-left: 0;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.backButton:hover{
+	background-color: #c2c2c2;
+}
+
+textarea:focus, input:focus {
+	outline: 0;
+}
+
+#pw, #del, #delkakao {
+	color: #797979;
+	font-size: 14px;
+}
+
+#profile-menu {
+	top: 90px;
+	margin-left: 40px;
+	width: 220px;
+	display: block;
+	background: #fff;
+	-webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transform: translateY(-400px);
+	-moz-transform: translateY(-400px);
+	-o-transform: translateY(-400px);
+	-ms-transform: translateY(-400px);
+	transform: translateY(-400px);
+	-webkit-transition: -webkit-transform .3s;
+	-moz-transition: -moz-transform .3s;
+	-o-transition: -o-transform .3s;
+	-ms-transition: -ms-transform .3s;
+	transition: transform .3s;
+	-moz-transform: translateY(-400px);
+	-o-transform: translateY(-400px);
+	-ms-transform: translateY(-400px);
+	transform: translateY(-400px);
+	background: #fff;
+}
+
+#profile-menu.active {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0)
+}
+
+#profile-menu:before {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 9px 9px 9px;
+	border-color: transparent transparent #fff transparent;
+	content: '';
+	display: block;
+	position: absolute;
+	top: -9px;
+	left: 18px
+}
+
+#profile-menu a {
+	background: #fff;
+	display: block;
+	padding: 18px 0 18px 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-size: 16px;
+	color: #333;
+	border: 1px solid #e8e8e8;
+	margin-top: -1px;
+}
+
+#profile-menu a:hover {
+	background: #f3f3f3
+}
+
+/* file css */
+.filebox input[type="file"] {
+	position: absolute;
+	width: 0;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+}
+
+.filebox label {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+	cursor: pointer;
+
+}
+
+/* named upload */
+.filebox #Img {
+	border-bottom: 2px solid #f5f5f5;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+/* modal 회원정보 수정*/
+.pop-layer .pop-container {
+	padding-left: 30px;
+	padding-top: 40px;
+	width: 85%;
+}
+
+.pop-layer p.ctxt {
+	color: #666;
+	line-height: 25px;
+}
+
+.pop-layer .btn-r {
+	width: 100%;
+	margin: 20px 0 10px;
+	padding-top: 10px;
+	border-top: 1px solid #DDD;
+	text-align: right;
+}
+
+.pop-layer {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 300px;
+	background-color: #fff;
+	border: 5px solid #666;
+	z-index: 10;
+}
+
+.dim-layer {
+	display: none;
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+.dim-layer .dimBg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+}
+
+.dim-layer .pop-layer {
+	display: block;
+}
+
+btn-layerClose {
+	display: inline-block;
+	height: 25px;
+	border: 1px solid #304a8a;
+	background-color: #aaaaaa;
+	font-size: 13px;
+	color: #fff;
+	line-height: 25px;
+}
+
+btn-layerClose:hover {
+	background-color: #c2c2c2;
+	color: #fff;
+}
+
+.btn-r {
+	position: absolute;
+	top: 220px;
+	right: 0px;
+}
+
+
+
+/* modal 회원탈퇴 */
+.pop-layer2 .pop-container2 {
+	padding-left: 50px;
+	padding-top: 40px;
+	width: 85%;
+}
+
+.pop-layer2 p.ctxt2 {
+	color: #666;
+	line-height: 25px;
+}
+
+.pop-layer2 .btn-r2 {
+	width: 100%;
+	margin: 20px 0 10px;
+	padding-top: 10px;
+	border-top: 1px solid #DDD;
+	text-align: right;
+}
+
+.pop-layer2 {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 296px;
+	background-color: #fff;
+	border: 5px solid #666;
+	z-index: 10;
+}
+
+.dim-layer2 {
+	display: none;
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+.dim-layer2 .dimBg2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+}
+
+.dim-layer2 .pop-layer2 {
+	display: block;
+}
+
+.btn-layerClose2 {
+	display: inline-block;
+	height: 25px;
+	background-color: #aaaaaa;
+	font-size: 13px;
+	color: #fff;
+	line-height: 25px;
+}
+
+.btn-layerClose2:hover {
+	background-color: #c2c2c2;
+	color: #fff;
+}
+
+.btn-r2 {
+	position: absolute;
+	top: 220px;
+	right: 0px;
+}
+
+
+
+
+/* modal 카카오 회원탈퇴 */
+.pop-layer3 .pop-container3 {
+	padding-left: 50px;
+	padding-top: 40px;
+	width: 85%;
+}
+
+.pop-layer3 p.ctxt3 {
+	color: #666;
+	line-height: 25px;
+}
+
+.pop-layer3 .btn-r3 {
+	width: 100%;
+	margin-top: 25px;
+	padding-top: 10px;
+	border-top: 1px solid #DDD;
+	text-align: right;
+}
+
+.pop-layer3 {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 290px;
+	background-color: #fff;
+	border: 5px solid #666;
+	z-index: 10;
+}
+
+.dim-layer3 {
+	display: none;
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+.dim-layer3 .dimBg3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+}
+
+.dim-layer3 .pop-layer3 {
+	display: block;
+}
+
+.btn-layerClose3 {
+	display: inline-block;
+	height: 25px;
+	background-color: #aaaaaa;
+	font-size: 13px;
+	color: #fff;
+	line-height: 25px;
+}
+
+.btn-layerClose3:hover {
+	background-color: #c2c2c2;
+	color: #fff;
+}
+
+.btn-r3 {
+	position: absolute;
+	top: 195px;
+	right: 0px;
+}

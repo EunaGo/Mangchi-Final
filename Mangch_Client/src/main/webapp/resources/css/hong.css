@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+hr {
+	margin: 0;
+}
+
+#donateWrap {
+	width:80%;
+	margin: auto;	
+	text-align: center;
+}
+
+
+#contentsBox {
+	margin: auto;
+	overflow: hidden;
+}
+
+
+.menu_card:hover {
+	background-color: #DDD;	
+}
+
+
+#listBox {
+	width: 80%;
+	overflow: hidden;
+	float: left;
+}
+
+
+#categoryBox {
+
+	width: 20%;
+	height: 100px;
+	float: right;
+}
+
+#pageBox {
+	height: 100px;
+}
+
+
+#donateFormWrap {
+	width:80%;
+	height:700px;
+	margin: auto;	
+	overflow: auto;
+}
+
+

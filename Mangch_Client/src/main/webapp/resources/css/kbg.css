@@ -1,0 +1,504 @@
+@charset "UTF-8";
+
+	.Pstyle {
+     opacity : 0;
+   display : none;
+   position : relative;
+   width : auto;
+   border : 5px solid #fff;
+   padding : 20px;
+   background-color : #fff;
+}
+
+.Pstyle2 {
+     opacity : 0;
+   display : none;
+   position : relative;
+   width : auto;
+   border : 5px solid #fff;
+   background-color : #fff;
+}
+
+
+.b-close {
+   position : absolute;
+   right : 5px;
+   top : 5px;
+   padding : 0px; /* padding : 5px; */
+   display : inline-block;
+   cursor : pointer;
+}
+.b-modal{
+         cursor: default !important;
+        }
+
+
+
+    .have_photo{
+            
+            border: 1px solid #DDD;
+            margin: auto;
+            margin-bottom: 15px;
+           height: auto;
+            overflow:hidden;
+            width: 514px;  
+            font-size: 13px;
+            word-break: break-all;
+        }
+        
+        .none_photo{
+            
+            border: 1px solid #DDD;
+            margin: auto;
+            margin-bottom: 15px;
+            height: auto;
+            overflow:hidden;
+            width: 514px;  
+            font-size: 13px;
+            word-break: break-all;
+        }
+        
+        header{
+            margin: 10px;
+            
+        }
+        .hd_img{
+            display: block;
+            width: 32px;
+            height: 32px;
+            float: left;
+        }
+        
+        .hd_img>img{
+            border: 2px solid #DDD;
+            border-radius: 50px;
+            width: 32px;
+            height: 32px;
+        }
+        .hd_nick{
+        padding-top5px;
+            margin-left: 48px;
+            overflow: hidden;
+            position: relative;
+            font-weight: bold;
+            font-size: 15px;
+            
+        }
+        
+        
+        .photo_body{
+            align-items: stretch;
+            box-sizing: border-box;
+            list-style: none;
+            margin-top: 20px;
+            
+        }
+        
+        
+        .photo_body>img{
+            width: 514px;
+            height: 313px;
+        }
+        
+        section>button{
+            width:35px;
+            height: 20px;
+            border: 0;
+            outline: 0;
+            background-color: white;
+        }
+        section>button>img{
+            widows: 25px;
+            height: 25px;
+        }
+        
+        .footers{
+            margin: 13px;
+        }
+    
+        .realtext{
+            margin: 13px;
+            overflow: hidden;
+        }
+        
+        .nonerealtext{
+            margin-left: 13px;
+            margin-top: 10px;
+            overflow: hidden;
+            -webkit-line-clamp:2;
+            display: -webkit-box;
+            -webkit-box-orient:vertical;
+        }
+        
+        .nonerealtext2{
+            margin-left: 13px;
+            margin-top: 10px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient:vertical;
+        }
+        
+        .cmtnum{
+            color: darkgrey;
+            margin-left: 9px; 
+ 			margin-top: 10px;
+ 			 border: 0;
+            outline: 0;
+            background-color: white;
+            cursor:pointer;
+         }
+        
+     
+        
+        
+        .cmtnick{
+            font-weight: bold;
+            margin-left: 17px;
+            margin-top: 10px;
+        }
+        
+        .cmtnick_in{
+            font-weight: bold;
+          
+            margin-top: 8.5px;
+        }
+        .cmttext{
+            margin-top: 10px;
+             margin-left: 10px;
+        }
+        .flex{
+            display: flex;
+        }
+        
+        .cmtwr{
+            width: 457px;
+            margin-left: 10px;
+            border: 0;
+            outline: 0;
+            float: left;
+        }
+        
+        .cmtsb-wr{
+        margin-right: 4px;
+            border: 0;
+            outline: 0;
+            color: skyblue;
+            background-color: white;
+        }
+        .cmtsb{
+           
+            margin-right: 4px;
+            border: 0;
+            outline: 0;
+            color: skyblue;
+            background-color: white;
+            
+        }
+        
+        .cmtsb-post{
+        margin-right: 4px;
+            border: 0;
+            outline: 0;
+            color: skyblue;
+            background-color: white;
+        
+        }
+        
+          .cmtsb2{
+           
+            margin-right: 4px;
+            border: 0;
+            outline: 0;
+            color: skyblue;
+            background-color: white;
+            
+        }
+        .cmtbunki{
+            margin-top: 18px;
+            height: 35px;
+        }
+        
+        
+        /* 게시글 들어갔을때 */
+        .in_wrap{
+            height: 500px;;
+            width: 800px;
+            position: relative;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        
+        .flex{
+            display: flex;
+        }
+        .in_photo>img{
+          height: 500px;
+            width: 400px;
+        }
+       
+        .in_body{
+           margin-left: 13px;
+            margin-top: 10px;
+           height: 400px;
+            
+        }
+        
+        .in_hd_img{
+            display: block;
+            width: 32px;
+            height: 32px;
+            float: left;
+        }
+        
+        .in_hd_img>img{
+            border: 2px solid #DDD;
+            border-radius: 50px;
+            width: 32px;
+            height: 32px;
+        }
+        .in_hd_nick{
+        
+            margin-left: 48px;
+            overflow: hidden;
+            align-items: flex-start;
+            position: relative;
+            font-weight: bold;
+            font-size: 15px;
+            width: 300px;
+            
+        }
+        
+        .in_hd_nick_no{
+        
+            margin-left: 48px;
+            overflow: hidden;
+            position: relative;
+            font-weight: bold;
+            font-size: 15px;
+            
+        }
+        
+          .null_content{
+            margin: 5px;
+            margin-top: 20px;
+             
+        }
+        .in_nonerealtext{
+            margin-left: 43px;
+            margin-top: 10px;
+            height: 300px !important;
+             overflow: scroll;
+        }
+        
+        .in_nonerealtext::-webkit-scrollbar{
+            display: none;
+        }
+        
+        .in_bottom{
+        position: absolute;
+        bottom: 0px;
+        height: 140px;
+        margin-left: 10px;    
+        }
+         .likes{
+            font-weight: bold;
+            margin-left: 17px;
+        }
+        
+         section>button{
+            width:35px;
+            height: 20px;
+            border: 0;
+            outline: 0;
+        }
+        section>button>img{
+            widows: 25px;
+            height: 25px;
+        }
+        .footers{
+            margin: 13px;
+        }
+        
+        .
+        
+     
+        .in_cmtbunki{
+            margin-top: 14px;
+        }
+        
+          .in_cmtwr{
+            width: 307px;
+           
+            border: 0;
+            outline: 0;
+            float: left;
+        }
+        .in_cmtwr_null{
+            width: 707px;
+           
+            border: 0;
+            outline: 0;
+            float: left;
+        }
+        
+           .cmtsb{
+           
+            margin-right: 4px;
+            border: 0;
+            outline: 0;
+            color: skyblue;
+            cursor: pointer;
+        }
+        .in_date{
+            display: flex;
+            flex-shrink: 1;
+            font-size: 11px;
+            color: darkgray;
+           
+            
+        }
+         .in_date_null{
+            display: flex;
+            flex-shrink: 1;
+            font-size: 11px;
+            color: darkgray;
+           margin-left: 220px;
+            
+        }
+        
+        .in_hits{
+            font-size: 11px;
+            color: darkgray;
+            margin-left: 14px;
+            margin-right: 50%;
+            
+        }
+        
+        .dh{
+            margin-top: 7px;
+        }
+        
+        
+        
+         .in_cmtnick{
+            font-weight: bold;
+            margin-left: 13px;
+            margin-top: 7px;
+             margin-right: 5px;
+             
+        }
+        
+        
+        .in_cmttext{
+            margin-top: 7px;
+            margin-bottom: 10px;
+            
+            width: 70%;
+        }
+        
+        .in_cmt_nick{
+            margin-left: 13px;
+            font-weight: bold;
+        }
+        
+        .in_bodycmt{
+            margin-top: 40px;
+            overflow-y:hidden;
+            ::-webkit-scrollbar {
+			display:none;
+
+}
+        }
+        
+        .dotpopup{
+        float: right; 
+        height: 20px; 
+        background-color: white; 
+        border: 0; 
+        outline: 0;
+        cursor: pointer;
+        }
+        
+        .dotpopup_no{
+        float: right; 
+        height: 20px; 
+        background-color: white; 
+        border: 0; 
+        outline: 0;
+        cursor: pointer;
+        margin-left: 670px;
+        }
+        
+        
+        
+        .dotpopup2{
+        display:none; 
+        margin-left:auto;
+        background-color: white; 
+        border: 0; 
+        outline: 0;
+        cursor: pointer;
+        }
+        
+        
+        
+        
+        
+        .editdiv{
+        
+   width : 200px;
+            max-height: 100%;
+            overflow: hidden;
+   background-color : #fff;
+            border-radius: 12px;
+            display: none;
+            
+        }
+        
+        
+        .btnz{
+            
+            display: block;
+            min-height: 48px;
+            cursor: pointer;
+            background-color: white;
+            border:0;
+            margin: 0 auto;
+            width: 100%;
+            outline: 0;
+            border-bottom: 1px solid #dbdbdb;
+            min-width: 100px;
+        }
+        
+        
+         .addr{
+            font-weight: bold;
+            color: gray;
+            font-size: 10px;
+            margin-left: 6px;
+        }
+        
+        .more{
+        margin-left:13px; 
+        color:gray;
+        cursor: pointer;
+        }
+        
+        .no_wrap{
+        height: 500px;
+        }
+        
+        #heart,#mmsg{
+        cursor: pointer;
+        }
+        
+        .realedit{
+        width : 800px;
+   height : 500px;
+   background-color : #fff;
+            display: none;
+        }
+        
+        .gomsg{
+        cursor: pointer;
+        }
