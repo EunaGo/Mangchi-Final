@@ -1,5 +1,5 @@
 # Mangchi-Final-Client
->우리동네 대여서비스 :: Client Server  
+>우리동네 대여서비스(Client Server) :: Spring Framework 구현  
 >가까웃 동네 이웃들끼리 필요한 물건을 대여, 나눔할 수 있도록 도와주는 매칭 서비스  
 >#RestAPI사용
 
@@ -9,7 +9,7 @@
 ## 주요 기능
 * **회원관리**  
     * **일반회원CRUD, 이메일 인증, kakao우편번호 서비스, kakao회원 CRUD, kakao회원 메세지보내기**    
-* 요청게시판  
+* 요청게시판(사용자와의 거리표시)  
 * 나눔게시판  
 * 동네생활 게시판  
 * QnA  
@@ -22,5 +22,5 @@
 * 사용언어 및 프레임워크 : `Java` `Spring Famework` `Jsp` `EL`
 * 웹 표주 및 프론트 : `HTML5` `CSS3` `Javascript` `JQuery` `W3C`
 * 데이터 베이스 : `MySQL` `MyBatis`
-* API : `Rest API` `kakao API` `summernote` `socket API`
+* API : `Rest API` `kakao API` `kakao 주소 API` `kakao map API` `summernote` `socket API`
 * 배포 : `AWS`
